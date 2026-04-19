@@ -10,21 +10,21 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: FaGithub,
-    href: "https://github.com",
+    href: "https://github.com/3137166860-wq",
     color: "text-gray-800 dark:text-gray-300",
     hoverColor: "hover:text-gray-900 dark:hover:text-white",
   },
   {
     name: "X (Twitter)",
     icon: FaTwitter,
-    href: "https://twitter.com",
+    href: "https://x.com/xby1188162",
     color: "text-gray-800 dark:text-gray-300",
     hoverColor: "hover:text-blue-500 dark:hover:text-blue-400",
   },
   {
     name: "Email",
     icon: SiGmail,
-    href: "mailto:hello@example.com",
+    href: "mailto:3137166860@qq.com",
     color: "text-gray-800 dark:text-gray-300",
     hoverColor: "hover:text-red-500 dark:hover:text-red-400",
   },
@@ -43,7 +43,7 @@ export default function FooterSection() {
   const handleWeChatClick = () => {
     setWeChatModalOpen(true);
     // 也可以复制微信号到剪贴板
-    navigator.clipboard.writeText("wechat_username").catch(() => {});
+    navigator.clipboard.writeText("wobujiaoshangu").catch(() => {});
   };
 
   return (
@@ -87,7 +87,7 @@ export default function FooterSection() {
                         className={`p-4 rounded-2xl border border-gray-300 dark:border-gray-800 bg-gray-50 dark:bg-gray-900/50 ${social.color} ${social.hoverColor} transition-colors duration-300`}
                         aria-label="Open WeChat QR code"
                       >
-                        <Icon className="w-7 h-7" />
+                        <Icon className="w-7 h-7 fill-current" />
                       </button>
                     ) : (
                       <a
@@ -97,7 +97,7 @@ export default function FooterSection() {
                         className={`p-4 rounded-2xl border border-gray-300 dark:border-gray-800 bg-gray-50 dark:bg-gray-900/50 ${social.color} ${social.hoverColor} transition-colors duration-300`}
                         aria-label={social.name}
                       >
-                        <Icon className="w-7 h-7" />
+                        <Icon className="w-7 h-7 fill-current" />
                       </a>
                     )}
                   </motion.div>
@@ -108,7 +108,7 @@ export default function FooterSection() {
             {/* 版权信息 */}
             <div className="pt-12 border-t border-gray-300 dark:border-gray-800">
               <p className="text-gray-500 dark:text-gray-500 text-sm">
-                © {new Date().getFullYear()} My Name. All thoughts are my own.
+                © {new Date().getFullYear()} 山谷. All thoughts are my own.
               </p>
               <p className="text-gray-500 dark:text-gray-500 text-sm mt-2">
                 Built with Next.js, Tailwind CSS, Framer Motion, and a lot of
@@ -157,7 +157,7 @@ export default function FooterSection() {
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">
                     Scan the QR code below to add me on WeChat, or copy the
-                    username: <strong>wechat_username</strong>
+                    username: <strong>wobujiaoshangu</strong>
                   </p>
 
                   {/* 二维码占位图 */}
@@ -183,7 +183,7 @@ export default function FooterSection() {
                     <button
                       className="w-full py-3 rounded-xl bg-gray-900 dark:bg-gray-800 text-white dark:text-gray-200 font-medium hover:bg-gray-800 dark:hover:bg-gray-700 transition-colors"
                       onClick={() => {
-                        navigator.clipboard.writeText("wechat_username");
+                        navigator.clipboard.writeText("wobujiaoshangu");
                         alert("Username copied to clipboard!");
                       }}
                     >

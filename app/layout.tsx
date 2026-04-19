@@ -11,11 +11,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio | Code. Design. AI.",
+  title: "山谷的作品集 | Code. Design. AI.",
   description: "Crafting digital experiences with code, design, and AI.",
   keywords: ["portfolio", "developer", "designer", "AI", "Next.js"],
-  authors: [{ name: "My Name" }],
-  creator: "My Name",
+  authors: [{ name: "山谷" }],
+  creator: "山谷",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
     { media: "(prefers-color-scheme: dark)", color: "#1d1d1f" },

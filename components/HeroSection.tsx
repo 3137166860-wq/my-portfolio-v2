@@ -23,7 +23,7 @@ export default function HeroSection() {
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight text-gray-900 dark:text-gray-100">
             Hi, I'm{" "}
             <span className="relative inline-block">
-              <span className="relative z-10">My Name</span>
+              <span className="relative z-10">山谷</span>
               <motion.span
                 className="absolute bottom-0 left-0 w-full h-3 bg-blue-100 dark:bg-blue-900/40 -rotate-1"
                 initial={{ scaleX: 0 }}
