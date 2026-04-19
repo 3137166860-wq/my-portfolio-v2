@@ -87,7 +87,7 @@ export default function FooterSection() {
                         className={`p-4 rounded-2xl border border-gray-300 dark:border-gray-800 bg-gray-50 dark:bg-gray-900/50 ${social.color} ${social.hoverColor} transition-colors duration-300`}
                         aria-label="Open WeChat QR code"
                       >
-                        <Icon className="w-7 h-7 fill-current" />
+                        <Icon className="w-7 h-7 fill-current" style={{ fill: 'currentColor' }} />
                       </button>
                     ) : (
                       <a
@@ -97,7 +97,7 @@ export default function FooterSection() {
                         className={`p-4 rounded-2xl border border-gray-300 dark:border-gray-800 bg-gray-50 dark:bg-gray-900/50 ${social.color} ${social.hoverColor} transition-colors duration-300`}
                         aria-label={social.name}
                       >
-                        <Icon className="w-7 h-7 fill-current" />
+                        <Icon className="w-7 h-7 fill-current" style={{ fill: 'currentColor' }} />
                       </a>
                     )}
                   </motion.div>

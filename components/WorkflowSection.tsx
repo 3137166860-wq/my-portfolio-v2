@@ -44,7 +44,7 @@ const categories = [
 
 export default function WorkflowSection() {
   return (
-    <section className="py-24 px-6 md:px-12 lg:px-24 bg-white dark:bg-gray-950/30">
+    <section className="py-24 px-6 md:px-12 lg:px-24 bg-white dark:bg-gray-950">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
